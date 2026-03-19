@@ -1,0 +1,74 @@
+body{
+            font-family: 'Times New Roman', Times, serif;
+            background:#acb5d2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .register-box{
+            background: white;
+            padding: 30px 30px;
+            width: 350px;
+            border-radius: 8px;
+            box-shadow: 1 5px 20px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #121212;
+            
+        }
+
+        input{
+            width: 95%;
+            padding: 10px;
+            margin: 8px ;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+         input:focus{
+            border-color: #4e73df;
+            outline: none;
+        }
+
+        button{
+            width: 100%;
+            padding: 10px;
+            background: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background: #2e59d9;
+        }
+
+        .success{
+            text-align: center;
+            color: green;
+            margin-top: 10px;
+        }
+       .btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0288d1;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.btn-link:hover {
+    background-color: #01579b;
+}
+.Invalid{
+            text-align: center;
+            color: red;
+            margin-top: 10px;
+        }

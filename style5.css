@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+
+
+.sidebar {
+    width: 20px;
+    background: #2c3e50;
+    flex-shrink: 0;
+    height: 10px;
+     flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.sidebar ul li a:hover {
+    background: #34495e;
+    margin-right: 10px;
+}
+
+
+.main-content {
+    flex: 1;
+    padding: 20px 40px;
+}
+header h1 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.card {
+    flex: 1 1 200px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: bold;
+}
+.recent-activities h2 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.recent-activities ul {
+    list-style: disc;
+    margin-left: 20px;
+    
+}
+
+.recent-activities ul li {
+    margin: 8px 0;
+}
+
+

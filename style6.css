@@ -1,0 +1,58 @@
+.popup-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popup-box {
+    background: #ffffff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    animation: popupAnimation 0.3s ease;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.popup-box h3 {
+    margin-bottom: 10px;
+}
+
+
+.popup-box p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-btn {
+    background: #9e9e9e;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background: #e53935;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+@keyframes popupAnimation {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}

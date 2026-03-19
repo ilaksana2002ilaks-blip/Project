@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('sd.avif') no-repeat center center/cover;
+}
+
+
+.sidebar {
+    width: 280px;
+    background: #222;
+    color: #fff;
+    float: left;
+    height: 140vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.sidebar a {
+    color: #eedc11;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:large;
+}
+.sidebar a:hover {
+    background: #142145;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 1;
+    min-width: 95px;
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.course-card {
+    flex:  10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.course-card:hover {
+    transform: translateY(-5px);
+}
+.course-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.course-card a:hover {
+    background: #218838;
+}
+
+
+.study-btn, .result-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.study-btn:hover {
+    background: #0056b3;
+}
+.result-btn:hover {
+    background: #e68900;
+}
+
+
+.chart-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+@media (max-width:768px){
+    .study-btn, .result-btn {
+        width: 90%;
+        text-align: center;
+        padding: 15px 0;
+        margin: 10px auto;
+        display: block;
+    }
+}
+h2,h1{
+    color: #ebc507;
+    margin-left: 15px; 
+}
+.student-icon{
+    width: 80px;       
+    height: 80px;
+    vertical-align: middle;
+    margin-right: 10px; 
+    border-radius: 50%; 
+}
